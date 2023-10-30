@@ -38,18 +38,13 @@ library to implement a very simple web server.
 > This lesson is a code-along, so please fork and clone the repo.
 
 `Pipfile` has a new dependency that we'll use in this lesson:`werkzeug`. Run
-`pipenv install`to install the dependencies and `pipenv shell` to enter your
-virtual environment before running your code.
-
-Run `pipenv install && pipenv shell` to generate and enter your virtual
-environment. This will install Werkzeug, alongside our usual testing and
-debugging libraries.
+`pipenv install && pipenv shell` to generate and enter your virtual environment.
 
 ```console
 $ pipenv install && pipenv shell
 ```
 
-You'll also notice a folder in the repo named `server`, which is where we'll put
+You'll notice a folder in the repo named `server`, which is where we'll put
 files containing Python code. The folder contains a file named
 `werkzeug_app.py`. We will edit this file to create our first web server.
 
