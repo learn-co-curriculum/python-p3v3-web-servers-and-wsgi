@@ -1,4 +1,4 @@
-# Web Servers and WSGI : Code-Along
+# Web Servers and WSGI
 
 ## Learning Goals
 
